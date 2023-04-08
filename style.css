@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+#wom-mob{
+    width: 237px;
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(-60%);
+}
+#pat-mob{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+}
+#desktop{
+    display: none;
+}
+.main{
+    background: #FFFFFF;
+    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+    border-radius: 23px;
+    width: 87.2%;
+    margin: 148px auto 0;
+    position: relative;
+    
+}
+.faq{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #1E1F36;
+    text-align: center;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #4B4C5F;
+    width: 74.4%;
+    
+}
+.sec{
+    cursor: pointer;
+    
+    
+}
+.para:hover{
+    color: #F47B56;
+}
+
+hr{
+    background: #E8E8EA;
+    height: 2px;
+    border: none;
+    width: 74.4%;
+    margin: 18px auto 0;
+}
+.last{
+    padding-bottom: 48px;
+}
+@media (min-width:1440px){
+    .sec{
+        width: 350px;
+        
+    }
+    .main{
+        width: 63.88%;
+        overflow-x: hidden;
+    }
+    .faq{
+        padding-top: 65px;
+    }
+    #pat-mob, #wom-mob{
+        display: none;
+    }
+    #desktop{
+        display: block;
+        width: 32.57%;
+        height: auto;
+        position: relative;
+        left: -41px;
+    }
+    .desktopversion{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .questions{
+        padding-right: 111px;
+        padding-bottom: 83px;
+    }
+}
