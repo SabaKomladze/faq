@@ -27,6 +27,8 @@ body{
 }
 #desktop{
     display: none;
+}#pat-desk{
+    display: none;
 }
 .main{
     background: #FFFFFF;
@@ -82,7 +84,7 @@ hr{
     }
     .main{
         width: 63.88%;
-        overflow-x: hidden;
+        overflow: hidden;
     }
     .faq{
         padding-top: 65px;
@@ -92,18 +94,28 @@ hr{
     }
     #desktop{
         display: block;
-        width: 32.57%;
-        height: auto;
+        width: 471px;
+        height: 351px;
         position: relative;
-        left: -41px;
+        left: -83px;
+        margin-top: -80px;
     }
     .desktopversion{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
     }
     .questions{
         padding-right: 111px;
         padding-bottom: 83px;
+    }
+    #pat-desk{
+        display: block;
+        position: absolute;
+        width: 66.94%;
+        height:auto;
+        left: -235px;
+        margin-top: -30px;
     }
 }
