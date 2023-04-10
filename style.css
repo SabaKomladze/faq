@@ -10,7 +10,8 @@ body{
     background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    overflow-x: hidden;
 }
 #wom-mob{
     width: 237px;
@@ -76,6 +77,21 @@ hr{
 }
 .last{
     padding-bottom: 48px;
+}
+.answer{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #787887;
+    width: 74.4%;
+    margin: 0 auto;
+    padding-top: 11px;
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+}
+.sec.active .answer{
+    height:30px;
 }
 @media (min-width:1440px){
     .sec{
